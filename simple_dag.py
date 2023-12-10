@@ -32,7 +32,7 @@ dag = DAG(
 # define the tasks
 
 # define the first task
-
+# task1 does nothing but sleep for 1 second
 task1 = BashOperator(
     task_id='task1',
     bash_command='sleep 1',
@@ -40,6 +40,7 @@ task1 = BashOperator(
 )
 
 # define the second task
+# task2 sleeps for 2 seconds
 task2 = BashOperator(
     task_id='task2',
     bash_command='sleep 2',
@@ -47,6 +48,7 @@ task2 = BashOperator(
 )
 
 # define the third task
+# task3 sleeps for 3 seconds
 task3 = BashOperator(
     task_id='task3',
     bash_command='sleep 3',
