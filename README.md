@@ -35,7 +35,7 @@ start_airflow
 </pre>
 - cp: This is the command for copying files or directories in Unix-like operating systems.
 
-- dummy_dag.py: This is the name of the file being copied.
+- simple_dag.py: This is the name of the file being copied.
 
 - $AIRFLOW_home/dags: This seems to be a variable indicating a directory path. Variables in shell scripting are denoted by the $ sign followed by the variable name.
 
@@ -44,7 +44,7 @@ start_airflow
   airflow dags list
 </pre>
 
-# Run the command below to list out all the tasks in dummy_dag.
+# Run the command below to list out all the tasks in simple_dag.
 <pre>
   airflow tasks list simple_dag
 </pre>
