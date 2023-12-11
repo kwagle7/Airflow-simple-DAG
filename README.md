@@ -28,3 +28,20 @@ start_airflow
 </pre>
 
 ![image](https://github.com/kwagle7/Airflow-simple-DAG/assets/13037108/79cac458-c4f9-41b7-88d6-b5afc62e76ff)
+
+# Copy the file simple_dag.py to the location specified by the variable `$AIRFLOW_home/dags`
+<pre>
+  cp simple_dag.py $AIRFLOW_HOME/dags
+</pre>
+
+# Run the command below to list out all the existing DAGs.
+<pre>
+  airflow dags list
+</pre>
+
+# Run the command below to list out all the tasks in dummy_dag.
+<pre>
+  airflow tasks list simple_dag
+</pre>
+
+
