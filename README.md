@@ -9,7 +9,7 @@ Monitoring a DAG
 - Task3 sleeps for 3 seconds.
 This DAG is scheduled to run every 1 minute.
 
-and other objectives are:
+Following are some  of the basic things we can see/perform (some are given in the images at the end)
 
 - Search for a DAG
 - Pause/Unpause a DAG
@@ -43,5 +43,9 @@ start_airflow
 <pre>
   airflow tasks list simple_dag
 </pre>
+![image](https://github.com/kwagle7/Airflow-simple-DAG/assets/13037108/86a0bacd-572e-49fd-aa66-a5c146c39e7c)
 
+![image](https://github.com/kwagle7/Airflow-simple-DAG/assets/13037108/f58fa16d-4606-4269-a6bd-194a3f087027)
 
+![image](https://github.com/kwagle7/Airflow-simple-DAG/assets/13037108/db7cbf47-a17c-4651-bb31-1d091e155ab5)
+![image](https://github.com/kwagle7/Airflow-simple-DAG/assets/13037108/24be5a15-268c-473f-9a40-0012b445c811)
